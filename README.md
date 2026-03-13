@@ -223,11 +223,12 @@ GOOS=linux GOARCH=amd64 go build -o cloudsql-allowlist-linux .
 
 ---
 
-## Newsletter
+## Author
 
-**The DevOps Dispatch** — Weekly infrastructure patterns, GCP/AWS war stories, and automation tips from 12 years of MENA enterprise engineering.
+**Mohamed AbdelAziz** Senior DevOps Architect
+12 years building cloud infrastructure for MENA startups, IaC, GCP, AWS
 
-[Subscribe on Beehiiv](https://devopsdispatch.beehiiv.com) · [LinkedIn](https://www.linkedin.com/in/maziz00/) · [GitHub](https://github.com/maziz00)
+- [LinkedIn](https://www.linkedin.com/in/maziz00/) | [Medium](https://medium.com/@maziz00) | [Upwork](https://www.upwork.com/freelancers/maziz00?s=1110580753140797440) | [Consulting](https://calendly.com/maziz00/devops)
 
 ---
 
