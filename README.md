@@ -223,7 +223,7 @@ GOOS=linux GOARCH=amd64 go build -o cloudsql-allowlist-linux .
 
 ---
 
-## Author
+## About Me
 
 **Mohamed AbdelAziz** Senior DevOps Architect
 12 years building cloud infrastructure for MENA startups, IaC, GCP, AWS
