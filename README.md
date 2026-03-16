@@ -7,7 +7,7 @@
 
 **Manage Cloud SQL authorized networks from the command line.**
 
-Add, remove, or list developer IP addresses on a Cloud SQL instance in one command — no GCP Console clicks, no manual JSON editing. Built for teams where developers need quick access to test/staging databases from dynamic IPs.
+Add, remove, or list developer IP addresses on a Cloud SQL instance in one command no GCP Console clicks, no manual JSON editing. Built for teams where developers need quick access to test/staging databases from dynamic IPs.
 
 ---
 
@@ -128,7 +128,7 @@ Flags:
 - `--ip` omitted → auto-detects your current public IP via `api.ipify.org`
 - Plain IP (e.g. `203.0.113.42`) → `/32` appended automatically
 - CIDR (e.g. `10.0.0.0/8`) → used as-is
-- Duplicate IPs are detected and skipped — no duplicates added
+- Duplicate IPs are detected and skipped no duplicates added
 
 ### `remove` — Revoke an IP
 
@@ -194,7 +194,7 @@ You can do this with `gcloud sql instances patch`, but it requires you to:
 3. Append your entry manually
 4. Pass the entire list back to `gcloud sql instances patch --authorized-networks=...`
 
-The `--authorized-networks` flag **replaces** the entire list, so one wrong copy-paste wipes everyone else's access. `cloudsql-allowlist` always reads the current state first and does a safe PATCH — it cannot accidentally remove entries you did not intend to touch.
+The `--authorized-networks` flag **replaces** the entire list, so one wrong copy-paste wipes everyone else's access. `cloudsql-allowlist` always reads the current state first and does a safe PATCH it cannot accidentally remove entries you did not intend to touch.
 
 ---
 
